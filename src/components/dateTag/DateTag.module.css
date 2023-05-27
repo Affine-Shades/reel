@@ -1,0 +1,22 @@
+.block {
+  align-items: center;
+  display: inline-flex;
+  left: 0;
+  position: sticky;
+  background-color: white;
+  color: #333;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+  border-radius: 2rem;
+  border: 1px solid var(--border-color);
+  transition: 0.15s ease-out;
+  margin-right: 0.5rem;
+}
+
+.active {
+  color: white;
+  background-color: #333;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,14 @@
+.container {
+  margin-left: var(--start-padding);
+  width: var(--thumbnail-size);
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background-color: var(--dot-color);
+}

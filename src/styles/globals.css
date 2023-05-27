@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --start-padding: 1rem;
+  --thumbnail-size: 48px;
+  --background: white;
+  --border-color: #333;
+  --dot-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: black;
+    --border-color: #666;
+    --dot-color: white;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overscroll-behavior-x: none;
+}
+
+::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+  height: 1rem;
+}

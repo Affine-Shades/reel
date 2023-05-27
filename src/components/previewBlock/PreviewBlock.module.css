@@ -1,0 +1,24 @@
+.image {
+  width: var(--thumbnail-size);
+  height: var(--thumbnail-size);
+  margin: 0 0.15rem;
+  object-fit: cover;
+  display: inline-block;
+  scroll-snap-align: start;
+}
+
+.skeleton {
+  animation: skeleton-loading 0.5s linear infinite alternate;
+  width: var(--thumbnail-size);
+  height: var(--thumbnail-size);
+  margin: 0 0.15rem;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
