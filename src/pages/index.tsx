@@ -6,5 +6,5 @@ import { groupByYear, sortByDate } from "@/utils/date";
 const formattedData = groupByYear(sortByDate(DATA));
 
 export default function Home() {
-  return <Timeline data={formattedData} showDate={true} />;
+  return <Timeline data={formattedData} showDate={true} />;  
 }

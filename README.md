@@ -29,11 +29,11 @@ const data = [
     src: "https://d2w9rnfcy7mm78.cloudfront.net/18389068/original_69198afd500671deba75081b3e6cab0d.jpg?1665081477?bc=0",
   },
   {
-    date: "2020-01-1",
+    date: "2020-03-12",
     src: "https://d2w9rnfcy7mm78.cloudfront.net/576969/original_d13cd1159b6a04ec729a02f22bfa0ceb.jpg?1459105811?bc=1",
   },
   {
-    date: "2020-01-2",
+    date: "2020-05-22",
     src: "https://d2w9rnfcy7mm78.cloudfront.net/13282413/original_7074efac4f47f5b7f32f5283fe71869b.jpg?1632366808?bc=0",
   },
 ];

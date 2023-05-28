@@ -29,6 +29,6 @@ export const groupByYear = (data: Data[]) => {
 };
 
 export const sortByDate = (data: Data[]) => {
-  const sortedData = [...data];
+  const sortedData = [...data];  
   return sortedData.sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 };
