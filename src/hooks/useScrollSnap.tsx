@@ -19,9 +19,8 @@ function useScrollSnap() {
 
       items?.forEach((item) => {
         const rect = item.getBoundingClientRect();
-        // 48 is the width of the image
-        // 8 for the space between images
-        if (rect.left <= 48 - 8 && rect.left <= (container?.offsetWidth || 0)) {
+        // 48 is the width of the image        
+        if (rect.left <= 48 && rect.left <= (container?.offsetWidth || 0)) {
           snappedElement = item;
           return;
         }
